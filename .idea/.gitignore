@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/vcs.xml
+/modules.xml
+/misc.xml
+/checkstyle-idea.xml
+#../aleatoire-java.iml
+
+# Editor-based HTTP Client requests
+/httpRequests/
