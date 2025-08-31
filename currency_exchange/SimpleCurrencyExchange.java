@@ -2,11 +2,15 @@ package currency_exchange;
 
 import java.util.Scanner;
 import java.util.HashMap;
+import java.util.logging.Logger;
 
 public class SimpleCurrencyExchange {
 
+    static Logger logger = Logger.getLogger(SimpleCurrencyExchange.class.getName());
+
     static void exchange(String curr1, String curr2, HashMap<String, Double> rates) {
         System.out.println("Enter amount in "+ curr1 +": ");
+//        logger.info("Enter amount in "+ curr1 +": ");
 
         // scanner
         Scanner sc = new Scanner(System.in);
