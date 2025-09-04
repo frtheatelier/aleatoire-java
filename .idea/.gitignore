@@ -6,6 +6,7 @@
 /misc.xml
 /checkstyle-idea.xml
 #../aleatoire-java.iml
+../out/
 
 # Editor-based HTTP Client requests
 /httpRequests/
